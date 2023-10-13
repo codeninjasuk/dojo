@@ -14,7 +14,10 @@ function openFullscreen() {
 Array.from(document.querySelectorAll('.option>button')).forEach((ele)=>{
     ele.addEventListener('click',()=>{
         // openFullscreen();
-        window.open(ele.dataset.href,'_blank',`height=${screen.height},width=${screen.width}`);
+        abc = window.open(ele.dataset.href,'_blank',`height=${screen.height},width=${screen.width}`);
+        setTimeout(()=>{
+          abc.location.reload();
+        },2000)
     })
 })
 
