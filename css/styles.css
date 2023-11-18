@@ -2,13 +2,13 @@
     height: 250px !important;
 }
 
-.flickity-slider >div > img{
+.flickity-slider >div{
     opacity: 0.5;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
-.flickity-slider > div > img:hover{
+.flickity-slider > div:hover{
     opacity: 1;
 }
 
@@ -17,4 +17,8 @@
     font-variant: petite-caps;
     font-weight: 800;
     margin-top: 20px;
+}
+
+.is-selected{
+    opacity: 1 !important;
 }
