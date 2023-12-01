@@ -7,7 +7,7 @@
     bottom:0;
     height:100vh;
     background: none;
-    background-image: url('https://web.archive.org/web/20231102081406im_/https://s3-eu-west-1.amazonaws.com/static-ressources/s1.png'), url('https://web.archive.org/web/20231102081406im_/https://s3-eu-west-1.amazonaws.com/static-ressources/s2.png'), url('https://web.archive.org/web/20231102081406im_/https://s3-eu-west-1.amazonaws.com/static-ressources/s3.png');
+    background-image: url('/img/snow/s1.png'), url('/img/snow/s2.png'), url('/img/snow/s3.png');
     z-index:100;
     -webkit-animation: snow 10s linear infinite;
     -moz-animation: snow 10s linear infinite;
