@@ -22,3 +22,24 @@
 .is-selected{
     opacity: 1 !important;
 }
+
+.add-button{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: gray;
+    padding: 5px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    transition: 0.4s ease;
+}
+
+.add-button:hover{
+    background-color: lightgray;
+    color: gray;
+}
