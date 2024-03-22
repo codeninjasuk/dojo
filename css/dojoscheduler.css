@@ -1,0 +1,204 @@
+.app-day-column:nth-child(3){
+  display:none;
+}
+.app-day-column:nth-child(2){
+  display:none;
+}
+.app-day-column:nth-child(1){
+  display:none;
+}
+.app-day-column:nth-child(4){
+  display:none;
+}
+
+.session-name-and-nickname > div:last-child{
+  display: none;
+}
+
+.session-name-and-nickname > div:first-child{
+  font-size: large;
+}
+
+.attend-waitlist{
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
+
+#divAttending > div{
+  background: #D5D8DC;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  transition: 0.1s ease;
+}
+
+#divAttending > :hover{
+  background: #C1C1C1;
+}
+
+#divAttending > div >p.col-2{
+  font-size: 25px;
+  padding-left: 5px;
+  color: black;
+}
+
+#divAttending > div > div.col-1 > i{
+  color: black !important;
+
+}
+
+
+#divAttending > div > a.col-9{
+  font-variant: petite-caps;
+  font-size: x-large;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  
+}
+
+.toolbar-title::after{
+  content: " - (Disable Stylebot to view MON, TUE, WED Overview  on the top right of the window)";
+}
+
+.card{
+  border-radius: 0px;
+}
+
+.container > br{
+  display: none;
+}
+
+
+div.session-time {
+  background: white;
+  /* color: orangered; */
+  font-size: large;
+  color: black;
+}
+
+div.session-name {
+  color: orangered;
+  font-size: 10px !important;
+}
+
+.session-name-and-nickname > div:first-child{
+  font-size: 14px;
+}
+
+body.bg{
+/* background: #17202A; */
+background: #641E16;
+/* background: radial-gradient(circle, #581845 0%, rgba(13,2,56,1) 58%, #900C3F 100%); */
+}
+
+.title-row{
+  display: none;
+}
+
+.btn-scheduler{
+  float: left;
+}
+
+.calendar-toolbar{
+  width: 100%;
+  margin-top: 20px;
+  background: black;
+  color:white;
+}
+
+[placeholder="Search for a customer or student by name or email..."]{
+  border-radius: 5px;
+  height: 35px;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  outline: none;
+}
+
+.input-group.input-group-sm > input{
+  outline: none;
+  border:none;
+  background: lightblue;
+
+}
+
+.input-group.input-group-sm > .input-group-append{
+  background: lightblue;
+  color:white;
+}
+
+.app-session-card > div > div > app-session-student-item > div > p{
+  text-align: center;
+  font-size: 10px;
+  color: gray;
+  display: none;
+}
+
+body{
+  padding-top: 25px;
+}
+/*
+body  {
+    background-image: url('https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?cs=srgb&dl=pexels-bess-hamiti-36487.jpg&fm=jpg&_gl=1*13gyq6l*_ga*OTM2ODM5MDI0LjE2OTUzOTc1NTE.*_ga_8JE65Q40S6*MTY5NTM5NzU1NS4xLjEuMTY5NTM5NzY5Mi4wLjAuMA..');
+  background-size:cover;
+        -webkit-animation: slidein 50s;
+        animation: slidein 50s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+*/
+
+div.calendar-toolbar {
+  opacity: 0.6;
+}
+
+app-week-calendar{
+  opacity: 0.8;
+}
+
+div.card {
+  border-radius: 10px;
+}
+
+app-scheduler-screen>div.container{
+  margin-bottom:20px;
+}
+#divAttending > div > div > i{
+  opacity: 0.2
+}
+
+#divAttending > div > div > i:hover{
+  opacity: 0.9
+}
+
+.app-session-student-item > div > div >p:last-child {
+  text-align: center;
+  opacity: 0.5;
+  color:magenta
+}
+
+.app-session-student-item > div > div >p:last-child:hover{
+  text-align: center;
+  opacity: 0.9;
+  color: red
+}
